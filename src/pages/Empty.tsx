@@ -1,5 +1,13 @@
+import Header from "src/components/Empty/Header";
+import Main from "src/components/Empty/Main";
+
 const Empty = () => {
-	return <></>;
+	return (
+		<>
+			<Header />
+			<Main />
+		</>
+	);
 };
 
 export default Empty;

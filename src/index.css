@@ -5,8 +5,20 @@
 }
 
 @font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("assets/fonts/Gilroy/Gilroy-Semibold.ttf");
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Gilroy-Bold";
   src: url("assets/fonts/Gilroy/Gilroy-Bold.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("assets/fonts/Gilroy/Gilroy-Regular.ttf");
   font-display: swap;
 }
 
@@ -22,4 +34,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+img {
+  object-fit: contain;
 }
