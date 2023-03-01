@@ -57,7 +57,7 @@ const homeList = [
 		title: "Resume templates proven to work",
 		content:
 			"Our experts have carefully selected the templates that are consistently performing in the job market.",
-		icon: resumeMaker,
+		icon: provenToWork,
 	},
 	{
 		title: "Online database of job phrases",
